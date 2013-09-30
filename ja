@@ -55,10 +55,10 @@ define('plugCubed/Model',['app/base/Class','app/facades/ChatFacade','app/store/L
         API.dispatch(API.CHAT,a);
     };
     function isPlugCubedDeveloper(id) {
-        return id == '522b1bca3e083e2421c547bf';
+        return id == '50aeb31696fba52c3ca0adb6';
     }
     function isPlugCubedVIP(id) {
-        return id == '5112c273d6e4a94ec0554792' || id == '50b1961c96fba57db2230417' || id == '5121578196fba506408bb9eb' || id == '50aeb077877b9217e2fbff00';
+        return id == '522b1bca3e083e2421c547bf' || id == '50b1961c96fba57db2230417' || id == '5121578196fba506408bb9eb' || id == '50aeb077877b9217e2fbff00';
     }
     function appendChatMessage(message,color) {
         if (!message) return;
